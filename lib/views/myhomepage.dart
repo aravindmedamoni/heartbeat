@@ -126,8 +126,6 @@ class _MyHomePageState extends State<MyHomePage> with SingleTickerProviderStateM
   }
 
   void _unToggle() {
-   //set bpm value to zero when unTap the button
-    _bpm =0;
     //clear the chart data
     _data.clear();
     _disposeController();

@@ -27,6 +27,20 @@ This is the working procedure of our app
 
 install and test yourself
 
+# Concept
+
+You’ve probably seen or know of devices that people clip to their fingers in hospitals that measure their heart rate, or smartwatches capable of measuring your heart rate. They all have one thing in common: They measure the heart rate with a technique called photoplethysmography.
+
+### A photoplethysmogram (PPG) 
+    is an optically obtained plethysmogram that can be used to detect blood volume changes in the microvascular bed of tissue. — Wikipedia
+
+Shining a light into a blood irrigated tissue, we can measure the variability of reflected light and extract the variation of blood flow. As we all know, the blood flow is dependent on the heart rate, so we can calculate the heart rate using the blood flow variation.
+
+![blood processing image](https://miro.medium.com/max/640/1*75e0L3AW_FG9bAb9AVnGzQ.jpeg)
+ credit goes to - Afonso Raposo
+
+So, in our application, we’ll shine the camera’s flash and measure the intensity reflected using the phone’s camera. More specifically, we’ll measure the average value of all the pixel’s intensity of the camera image. Then, if we cover the camera and flash with our finger, the intensity measured will vary with the blood flow.
+
 Thank you 😍️😍️😍️
 
 

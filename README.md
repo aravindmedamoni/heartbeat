@@ -2,7 +2,7 @@
 
 A new Flutter application.
 
-By using this app you can measure your beats per minute(BPM)
+By using this app you can count your Heart beats per minute(BPM)
 
 
 ## Getting Started
